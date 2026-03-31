@@ -3,14 +3,20 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Navbar from './components/navbar/Navbar'
+import Banner from './components/banner/Banner'
+import Footer from './components/footer/Footer'
+import Workflow from './components/workflow/Workflow'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h2 className='text-red-600 text-4xl bg-amber-500'>Hello World</h2>
-      
+    <Navbar></Navbar>
+    <Banner></Banner>
+    <Workflow></Workflow>
+    <Footer></Footer>
     </>
   )
 }
