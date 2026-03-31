@@ -4,7 +4,7 @@ import dot from "../../assets/Group 5 (1).png"
 
 const Banner = () => {
   return (
-    <div className="relative min-h-162.5 flex items-center overflow-hidden">
+    <div className="relative min-h-162.5 flex items-center overflow-hidden sm:w-90%">
       <div className=" mx-auto grid grid-cols-1 pt-20 lg:grid-cols-2 gap-10 items-center relative z-10">
         {/* Left Content */}
         <div className="space-y-4">
@@ -28,7 +28,7 @@ Explore Products
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="btn  text-white rounded-full">Explore Products</button>
+            <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">Explore Products</button>
             <button className="btn btn-outline btn-primary rounded-full"><img src={playImage} alt="" /> Watch Demo</button>
           </div>
 

@@ -6,7 +6,7 @@ const Pricing = () => {
             <h2 className='font-extrabold text-5xl text-center pt-28'>Simple, Transparent Pricing</h2>
             <p className='text-gray-700 text-center mt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 
-            <div class="card shadow-sm mt-10 max-w-300 grid sm:grid-cols-1 md:grid-cols-3 w-full gap-7 pb-28">
+            <div class="card shadow-sm mt-10 max-w-300 w-90% grid sm:grid-cols-1 md:grid-cols-3 w-full gap-7 pb-28">
   <div class="card-body bg-base-200 rounded-2xl">
     
       <h2 class="text-3xl font-bold">Premium</h2>
@@ -37,7 +37,7 @@ const Pricing = () => {
     </div>
   </div>
   <div class="card-body bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-2xl relative">
-    <span class="badge badge-xs bg-yellow-200 text-yellow-700 absolute -mt-7 ml-22
+    <span class="badge badge-xs bg-yellow-200 text-yellow-700 absolute -mt-7 sm:ml-70 md:ml-22 lg:ml-33
     ">Most Popular</span>
       <h2 class="text-3xl font-bold">Pro</h2>
       <p className=''>Best for professionals</p>
