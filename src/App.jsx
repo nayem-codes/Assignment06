@@ -7,16 +7,18 @@ import Navbar from './components/navbar/Navbar'
 import Banner from './components/banner/Banner'
 import Footer from './components/footer/Footer'
 import Workflow from './components/workflow/Workflow'
+import Pricing from './components/pricing/Pricing'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Navbar></Navbar>
-    <Banner></Banner>
-    <Workflow></Workflow>
-    <Footer></Footer>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Pricing></Pricing>
+      <Workflow></Workflow>
+      <Footer></Footer>
     </>
   )
 }
