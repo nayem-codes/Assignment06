@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer'
 import Workflow from './components/workflow/Workflow'
 import Pricing from './components/pricing/Pricing'
 import Steps from './components/steps/Steps'
+import Info from './components/steps/info/Info'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <Info></Info>
       <Steps></Steps>
       <Pricing></Pricing>
       <Workflow></Workflow>
