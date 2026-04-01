@@ -19,7 +19,8 @@ const ModelCard = ({model, cart, setCart}) => {
     }
 
     return (
-        <div className="rounded-2xl bg-base-200 p-6 shadow-lg">
+        <div className="rounded-2xl bg-base-200 p-6 shadow-lg relative">
+            <div className={`absolute ml-67 -mt-2  p-2 flex items-center ${model.tagType === "best seller" ? "badge badge-warning" : model.tagType === "new" ? "badge badge-accent" : "badge badge-primary"}`} >{model.tagType}</div>
             <div className="bg-white  border border-gray-300 rounded-full inline-block p-3">
                 <img src={model.icon} alt="" />
             </div>
