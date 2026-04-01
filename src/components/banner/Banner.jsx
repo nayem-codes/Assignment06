@@ -15,16 +15,16 @@ const Banner = () => {
           <h1 className="text-4xl lg:text-5xl font-bold ">
             Supercharge Your
             <br />
-            
-              Digital Workflow
-            
+
+            Digital Workflow
+
           </h1>
 
           <p className="text-lg text-zinc-700 max-w-lg">
             Access premium AI tools, design assets, templates, and productivity <br></br>
-software—all in one place. Start creating faster today.
-<br></br>
-Explore Products
+            software—all in one place. Start creating faster today.
+            <br></br>
+            Explore Products
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
@@ -32,7 +32,7 @@ Explore Products
             <button className="btn btn-outline btn-primary rounded-full"><img src={playImage} alt="" /> Watch Demo</button>
           </div>
 
-        
+
         </div>
 
         {/* Right Image */}
