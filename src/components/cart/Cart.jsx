@@ -6,7 +6,12 @@ const Cart = ({ cart, setCart }) => {
         setCart([])
     };
 
-    
+    const handleDelete = (item) => {
+        const filteredArray = cart.filter(c => c.id !== item.id)
+        setCart(filteredArray)
+    }
+
+
     return (
         <div className="grid gap-4 max-w-300 mx-auto p-10 mt-10 shadow-lg rounded-2xl">
 
@@ -34,7 +39,7 @@ const Cart = ({ cart, setCart }) => {
                         </div>
 
                         <div>
-                            <button className="btn btn-ghost text-red-500 font-medium">Remove</button>
+                            <button onClick={() => handleDelete (item)} className="btn btn-ghost text-red-500 font-medium">Remove</button>
                         </div>
                     </div>
 

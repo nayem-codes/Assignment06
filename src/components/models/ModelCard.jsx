@@ -25,7 +25,7 @@ const ModelCard = ({model, cart, setCart}) => {
 
             <div className="mt-4">
                 {model.features.map(feature => (
-              +      <p><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg> {feature}</p>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg> {feature}</p>
                 ))}
 
                 <button onClick={handleBuying} className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full mt-4 w-full">{isBought ? "Added to cart!" : "Buy Now"}</button>
