@@ -2,7 +2,7 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] flex justify-center items-center sm:gap-10  mt-20 gap-6 flex-wrap overflow-hidden w-90%'>
+        <div className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-90% flex justify-center items-center sm:gap-10  mt-20 gap-6 flex-wrap overflow-hidden '>
             <div className='py-14 text-center sm:text-left'>
                 <h2 className='font-extrabold text-6xl text-white'>50K+</h2>
                 <p className='text-gray-400'>Active Users</p>

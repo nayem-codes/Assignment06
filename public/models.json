@@ -13,7 +13,7 @@
             "SEO writing assistance",
             "Multiple content formats"
         ],
-        "icon": "../src/assets/writing_2327400 1.png"
+        "icon": "./writing_2327400 1.png"
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@
             "Business and social media designs",
             "High-resolution assets"
         ],
-        "icon": "../src/assets/design-tool.png"
+        "icon": "./design-tool.png"
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@
             "Royalty-free license",
             "Commercial use allowed"
         ],
-        "icon": "../src/assets/camera_8775444 1.png"
+        "icon": "./camera_8775444 1.png"
     },
     {
         "id": 4,
@@ -61,7 +61,7 @@
             "No-code setup",
             "Task scheduling"
         ],
-        "icon": "../src/assets/operation.png"
+        "icon": "./operation.png"
     },
     {
         "id": 5,
@@ -77,7 +77,7 @@
             "Export to PDF",
             "Real-time editing"
         ],
-        "icon": "../src/assets/portfolio.png"
+        "icon": "./portfolio.png"
     },
     {
         "id": 6,
@@ -93,6 +93,6 @@
             "Instagram & Facebook optimized",
             "Editable formats"
         ],
-        "icon": "../src/assets/social-media.png"
+        "icon": "./social-media.png"
     }
 ]

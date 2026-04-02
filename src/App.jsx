@@ -7,7 +7,6 @@ import Pricing from './components/pricing/Pricing'
 import Steps from './components/steps/Steps'
 import Info from './components/steps/info/Info'
 import Models from './components/models/Models'
-import ModelCard from './components/models/ModelCard'
 import Cart from './components/cart/Cart'
 import { useState } from 'react'
 
