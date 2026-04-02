@@ -1,16 +1,39 @@
-# React + Vite
+# 🚀 DigiTools: Supercharge Your Digital Workflow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance landing page designed to showcase premium digital assets and automation tools with a seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
 
-## React Compiler
+This project leverages a powerful and modern frontend stack:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** – Builds a dynamic, state-driven UI with reusable components  
+- **Tailwind CSS** – Utility-first styling for a custom "DigiTools" design system  
+- **daisyUI** – Pre-built, accessible UI components for rapid development  
+- **HTML5** – Semantic structure for improved SEO and accessibility  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+### 🧰 Premium Tool Catalog
+- Curated grid of digital assets (design templates, automation toolkits)  
+- Dynamic badges like **"New"** and **"Popular"**  
+- Clear pricing triggers for each product  
+
+---
+
+### 💰 Tiered Pricing Ecosystem
+- Three pricing tiers: **Starter**, **Pro**, and **Enterprise**  
+- **Pro plan highlighted** as "Best Value"  
+- Feature comparison checklists for each tier  
+
+---
+
+### 📱 Fully Responsive Layout
+- Mobile-first design approach  
+- Optimized for all screen sizes (mobile → desktop)  
+- Smooth and consistent user experience across devices  
+
+---
